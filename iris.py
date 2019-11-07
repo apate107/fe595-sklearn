@@ -22,7 +22,6 @@ def main():
     # Load in data
     iris = load_iris()
     X = pd.DataFrame(data=iris['data'], columns=iris['feature_names'])
-    Y = pd.DataFrame(data=iris['target'], columns=['species'])
 
     # Create a range of models with N=1-10 clusters and keep track of the total squared distance
     model_stats = {}
