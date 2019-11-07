@@ -10,8 +10,8 @@ the home is near the Charles River. The target variable represents the median va
 
 After fitting a linear regression to the model, we can access the `coef_` attribute which tells us the 
 coefficients of each predictor. From here, we take the absolute value and print out the predictor name 
-that corresponds with the index of the coefficient with the highest absolute value, which is `NOX` 
-(nitrous oxide level in ppm).
+that corresponds with the index of the coefficient with the highest absolute value, and thus **we can say
+`NOX` (nitrous oxide level in ppm) is the most influential predictor of home price in Boston**.
 
 
 ## Iris Dataset: K-Means Clustering
